@@ -1,7 +1,16 @@
 const msg = `Personal Projects can be found at: `
+const subdomains={ }
+myMsg(msg,subdomains)
 
-function myMsg(x){
-    console.log(x)
-    console.log(`Nothing is hosted yet`)
+/*
+*-------------------------------------------------
+** Function: console.log subdomains
+*-------------------------------------------------
+*/
+function myMsg(x,y){
+    if(!Object.keys(y).length){
+        console.log(x, `Nothing is hosted yet`)
+    }
+
 }
-myMsg(msg)
+
